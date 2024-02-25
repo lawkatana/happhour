@@ -713,6 +713,11 @@ video {
   margin-bottom: -1.5rem;
 }
 
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -721,6 +726,11 @@ video {
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .-mb-14{
@@ -897,6 +907,10 @@ video {
 
 .max-w-xl{
   max-width: 36rem;
+}
+
+.max-w-screen-sm{
+  max-width: 640px;
 }
 
 .flex-1{
@@ -1547,6 +1561,42 @@ video {
   transition-duration: 300ms;
 }
 
+@media (min-width: 640px){
+  .sm\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .sm\:container{
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .sm\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px){
+    .sm\:container{
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .sm\:container{
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px){
+    .sm\:container{
+      max-width: 1536px;
+    }
+  }
+}
+
 .before\:absolute::before{
   content: var(--tw-content);
   position: absolute;
@@ -1665,6 +1715,11 @@ video {
   .sm\:my-2{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  .sm\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .sm\:mt-2{
