@@ -1905,7 +1905,7 @@ html {
 .slider .list .item .content{
   position: absolute;
   left: 5%;
-  top: 50%;
+  top: 40%;
   z-index: 10;
   max-width: 90%;
   border-bottom-right-radius: 0.5rem;
@@ -1926,6 +1926,12 @@ html {
 @media (min-width: 640px){
   .slider .list .item .content{
     max-width: 80%;
+  }
+}
+
+@media (min-width: 768px){
+  .slider .list .item .content{
+    top: 50%;
   }
 }
 
@@ -1963,8 +1969,8 @@ html {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-family: "Nunito", sans-serif;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 700;
   line-height: 2;
 }
@@ -1973,6 +1979,11 @@ html {
   .slider .list .item .content h2{
     font-size: 3rem;
     line-height: 1.375;
+  }
+
+  .slider .list .item .content p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -2017,7 +2028,7 @@ html {
 
 .arrows{
   position: absolute;
-  top: 44%;
+  top: 34%;
   left: 5%;
   z-index: 10;
 }
